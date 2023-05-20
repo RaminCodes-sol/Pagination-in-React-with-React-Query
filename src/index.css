@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        @apply box-border m-0 p-0;
+    }
+
+    body {
+        @apply bg-[#141414];
+    }
+
+    button {
+        @apply flex justify-center items-center cursor-pointer;
+    }
+}
